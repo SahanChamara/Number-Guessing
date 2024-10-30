@@ -8,7 +8,7 @@
     overflow: hidden;
     animation: 
         typing 3s,
-        cursor .8s step-end infinite alternate;    
+        cursor .8s step-end infinite running;    
 }
 
 @keyframes cursor {
