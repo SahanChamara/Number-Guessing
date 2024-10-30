@@ -3,11 +3,6 @@ let generateNumber = (Math.floor((Math.random() * 10) + 1));
 let result = document.getElementById("result");
 let chanse = document.getElementById("chanse");
 
-
-
-
-
-
 let count=3;
 chanse.innerHTML=`Chances Left : ${count}`;
 
@@ -26,7 +21,7 @@ function numberGuess() {
         count--;
         chanse.innerHTML=`Chances Left : ${count}`;
     }else{
-        result.innerHTML="Game Over";
+        result.innerHTML=`Game Over Correct Number is ${generateNumber}`;
 
     }
     console.log(generateNumber);

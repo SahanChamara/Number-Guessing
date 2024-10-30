@@ -1,14 +1,14 @@
 .typewritter{
-    font-size: 5em;
-    letter-spacing: 10px;
+    font-size: 20px;
+    letter-spacing: 8px;
     font-family: monospace;
     border-right: 5px solid;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
     animation: 
-        typing 2s,
-        cursor .4s step-end infinite alternate;    
+        typing 3s,
+        cursor .8s step-end infinite alternate;    
 }
 
 @keyframes cursor {
@@ -19,3 +19,12 @@
 @keyframes typing{
     from {width: 0}
 }
+
+.container{    
+    position: relative;  
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);   
+}
+
