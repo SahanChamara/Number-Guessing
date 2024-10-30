@@ -17,7 +17,7 @@ function numberGuess() {
 
     if(count>0){
         if(generateNumber == userInputNumber){
-            result.innerHTML="you Win";
+            result.innerHTML="You Win";
         }else if(userInputNumber>generateNumber){
             result.innerHTML="Number is too High";
         }else{
