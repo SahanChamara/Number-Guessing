@@ -23,9 +23,6 @@ function numberGuess() {
     } else {
         result.innerHTML = `Game Over 😩 Correct Number is ${generateNumber}`;
         gif.innerHTML= ` <img src="https://media1.tenor.com/m/oXq2i6gRRL4AAAAC/wack.gif" alt=""> `
-
-       
-
     }
     console.log(generateNumber);
 
